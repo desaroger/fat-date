@@ -1,5 +1,7 @@
 # fat-date
-Utility to convert from date to FAT32 DateTime and vice versa
+Utility to convert from date to FAT32 DateTime and vice versa. No dependencies.
+
+Info in [forensicswiki.org/wiki/FAT](http://forensicswiki.org/wiki/FAT#FAT_date_and_time_values).
 
 ## Installation
 
