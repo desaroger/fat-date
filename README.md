@@ -24,5 +24,5 @@ let fDate = fatDate.fromDate(date);
 let fatDate = require('fat-date');
 let fDate = 549533567;
 let date = fatDate.fromFat(fDate);
-// date = 2007-12-31T04:06:01.000Z
+// date == 2007-12-31T04:06:01.000Z
 ```
