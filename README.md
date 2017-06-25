@@ -11,7 +11,7 @@ $ npm i --save fat-date
 
 **From Date to Fat DateTime**
 
-```NodeJs
+```js
 let fatDate = require('fat-date');
 let date = new Date('2007-12-31T04:06:01.000Z');
 let fDate = fatDate.fromDate(date);
@@ -20,7 +20,7 @@ let fDate = fatDate.fromDate(date);
 
 **From Fat DateTime  to Date**
 
-```NodeJs
+```js
 let fatDate = require('fat-date');
 let fDate = 549533567;
 let date = fatDate.fromFat(fDate);
