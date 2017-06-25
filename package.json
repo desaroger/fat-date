@@ -1,6 +1,6 @@
 {
   "name": "fat-date",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility to convert from date to FAT32 date and vice versa Edit",
   "main": "src/index.js",
   "directories": {
