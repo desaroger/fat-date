@@ -15,16 +15,16 @@ $ npm i --save fat-date
 
 ```js
 let fatDate = require('fat-date');
-let date = new Date('2007-12-31T04:06:01.000Z');
+let date = new Date('2013-07-13T06:13:50.000Z');
 let fDate = fatDate.fromDate(date);
-// fDate == 549533567
+// fDate == 1122841017
 ```
 
 **From Fat DateTime  to Date**
 
 ```js
 let fatDate = require('fat-date');
-let fDate = 549533567;
+let fDate = 1122841017;
 let date = fatDate.fromFat(fDate);
-// date == 2007-12-31T04:06:01.000Z
+// date == 2013-07-13T06:13:50.000Z
 ```
